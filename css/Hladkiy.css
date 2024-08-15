@@ -4,7 +4,7 @@ body {
   margin: auto;
   padding: auto;
   background-color: #f1efef;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-decoration: none;
 }
 
@@ -39,14 +39,15 @@ header {
 }
 
 .headercenter {
-  margin-top: 39px;
+  margin-top: 45px;
   display: flex;
+  font-size: 0px;
 
 
   text-decoration: none;
-	font-family: Microsoft Sans Serif;
+  font-family: Microsoft Sans Serif;
 }
-	
+
 .Headercenter ul {
   width: 427px;
   height: 32px;
@@ -66,7 +67,7 @@ header {
 .headercenter a {
   margin: 0px;
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "roboto", sans-serif;
 
   text-decoration: none;
@@ -96,74 +97,71 @@ header {
 
 .textp {
   text-decoration: none;
-	font-family: Gabriola;
-	font-weight: 500;
+  font-family: Gabriola;
+  font-weight: 500;
 }
 
 a {
-	text-decoration: none;
-        color: #000000	;
-   }
+  text-decoration: none;
+  color: #000000;
+}
 
 .Home_card__7oz7W {
-    margin: 1rem;
-    padding: 1.5rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color .15s ease, border-color .15s ease;
-    width: 45%;
-    
-               }
-    .p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-                    }
+  margin:left;
+  padding: left;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color .15s ease, border-color .15s ease;
+  width: 45%;
+  font-size: 20px;
+}
+
+.p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .Home_card__7oz7W p {
-    margin: 10;
-    font-size: 1.25rem;
-    line-height: 1.5;
+  margin: 10;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
 }
 
 li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    unicode-bidi: isolate;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
 }
 
 .image {
-    left: 30px;
+  left: 30px;
 }
 
-.home_footersp__KCJ7G {
-    
-}
+.home_footersp__KCJ7G {}
 
-.home_footer__7dKhS {
-    
-}
+.home_footer__7dKhS {}
 
 /* footer {
 	
@@ -174,15 +172,15 @@ li {
 } */
 
 footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
-	// color
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-	background-color: #fff;
+  // color
+
+  background-color: #fff;
 }
