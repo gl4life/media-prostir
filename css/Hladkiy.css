@@ -1,11 +1,16 @@
+
+
 body {
   width: 1220px;
   height: 1750px;
   margin: auto;
   padding: auto;
-  background-color: #f1efef;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-decoration: none;
+  background-color: #ffffff	;
+  background-image: url("https://media.moddb.com/images/mods/1/62/61258/profile/file.jpg");
+  background-size: cover;
+
 }
 
 header {
@@ -20,17 +25,16 @@ header {
 .headermain {
   width: 1200;
   height: 1750;
-  background-color: #a9a9a9;
+  background-color: #ffffff33;
   display: flex;
   justify-content: space-between;
-
   text-decoration: none;
 }
 
 .headerlogo img {
   width: 200px;
   height: 90px;
-  border-radius: 22px;
+
   margin-left: 20px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -43,9 +47,9 @@ header {
   display: flex;
   font-size: 0px;
 
-
   text-decoration: none;
   font-family: Microsoft Sans Serif;
+  
 }
 
 .Headercenter ul {
@@ -66,7 +70,7 @@ header {
 
 .headercenter a {
   margin: 0px;
-  color: #fff;
+  color: #000000;
   font-size: 20px;
   font-family: "roboto", sans-serif;
 
@@ -99,11 +103,18 @@ header {
   text-decoration: none;
   font-family: Gabriola;
   font-weight: 500;
+  color: rgb(255, 255, 255);
+	text-shadow: 2px 0 2px #000000, 
+				0 2px 2px #000000, 
+				-2px 0 2px #000000, 
+				0 -2px 2px #000000
+
 }
 
 a {
   text-decoration: none;
   color: #000000;
+  
 }
 
 .Home_card__7oz7W {
@@ -112,11 +123,15 @@ a {
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
   transition: color .15s ease, border-color .15s ease;
   width: 45%;
   font-size: 20px;
+  color: rgb(255, 255, 255);
+	text-shadow: 2px 0 2px #000000, 
+				0 2px 2px #000000, 
+				-2px 0 2px #000000, 
+				0 -2px 2px #000000
+
 }
 
 .p {
@@ -126,6 +141,13 @@ a {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
+  color: rgb(255, 255, 255);
+	text-shadow: 2px 0 2px #000000, 
+				0 2px 2px #000000, 
+				-2px 0 2px #000000, 
+				0 -2px 2px #000000
+  
+ 
 }
 
 * {
@@ -136,6 +158,12 @@ a {
   margin: 10;
   font-size: 1.25rem;
   line-height: 1.5;
+  color: rgb(255, 255, 255);
+	text-shadow: 2px 0 2px #000000, 
+				0 2px 2px #000000, 
+				-2px 0 2px #000000, 
+				0 -2px 2px #000000
+
 }
 
 ul {
@@ -179,8 +207,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 0 2px #499b57, 
+  0 2px 2px #3bbe57, 
+  -2px 0 2px #35a34d, 
+  0 -2px 2px #46af3d;
 
   // color
 
-  background-color: #fff;
+
 }
